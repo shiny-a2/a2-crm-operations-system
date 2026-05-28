@@ -1,5 +1,7 @@
 # A2 CRM Operations System
 
+[![Sample PHP Syntax Check](https://github.com/shiny-a2/a2-crm-operations-system/actions/workflows/sample-php-lint.yml/badge.svg)](https://github.com/shiny-a2/a2-crm-operations-system/actions/workflows/sample-php-lint.yml)
+
 Public-safe architecture case study for a WordPress-based CRM/customer operations system.
 
 This repository documents architecture and representative samples only. It does not contain production customer data, provider credentials, messages, phone numbers, or private workflow logic.
