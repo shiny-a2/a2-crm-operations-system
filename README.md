@@ -99,6 +99,12 @@ flowchart TD
 - audit logger;
 - admin page boundary.
 
+## Engineering Notes
+
+- [Operator inbox state boundaries](docs/engineering-notes/operator-inbox-state-boundaries.md)
+- [Provider abstraction for SMS and VoIP](docs/engineering-notes/provider-abstraction-for-sms-and-voip.md)
+- [Reporting without live query pressure](docs/engineering-notes/reporting-without-live-query-pressure.md)
+
 ## Security & Privacy Notes
 
 Production customer data, phone numbers, messages, provider credentials, internal workflows, and private logs are excluded.
@@ -112,4 +118,3 @@ PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provid
 - Portfolio: https://amiraliyaghouti.com
 - Projects: https://amiraliyaghouti.com/projects.html
 - GitHub profile: https://github.com/shiny-a2
-
