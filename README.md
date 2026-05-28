@@ -105,6 +105,13 @@ flowchart TD
 - [Provider abstraction for SMS and VoIP](docs/engineering-notes/provider-abstraction-for-sms-and-voip.md)
 - [Reporting without live query pressure](docs/engineering-notes/reporting-without-live-query-pressure.md)
 
+## Infrastructure Notes
+
+- [Request lifecycle](docs/infrastructure/request-lifecycle.md)
+- [Observability and instrumentation](docs/infrastructure/observability-and-instrumentation.md)
+- [Failure mode matrix](docs/infrastructure/failure-mode-matrix.md)
+- [Infrastructure samples](samples/infrastructure)
+
 ## Security & Privacy Notes
 
 Production customer data, phone numbers, messages, provider credentials, internal workflows, and private logs are excluded.
