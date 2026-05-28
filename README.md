@@ -4,6 +4,10 @@ Public-safe architecture case study for a WordPress-based CRM/customer operation
 
 This repository documents architecture and representative samples only. It does not contain production customer data, provider credentials, messages, phone numbers, or private workflow logic.
 
+## Reviewer Shortcut
+
+This repo demonstrates a WordPress-based CRM and customer operations system through public-safe architecture notes and sanitized samples. It relates to operator inboxes, assignment state, provider callbacks, reporting snapshots, and auditability inside commerce operations. It proves state boundaries, provider abstraction, live-query avoidance, and fail-visible operations. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.
+
 ## Overview
 
 The system represented here turns WordPress from a content/admin surface into an operational workspace for sales and customer follow-up. The engineering problem is not only CRUD. It is assignment state, customer context, operator workload, provider failure, reporting, and auditability.
@@ -120,8 +124,9 @@ Production customer data, phone numbers, messages, provider credentials, interna
 
 PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provider abstraction.
 
-## Related Links
+## Related Portfolio
 
 - Portfolio: https://amiraliyaghouti.com
 - Projects: https://amiraliyaghouti.com/projects.html
+- Case studies: https://amiraliyaghouti.com/case-studies.html
 - GitHub profile: https://github.com/shiny-a2
