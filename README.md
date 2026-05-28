@@ -116,6 +116,12 @@ flowchart TD
 - [Failure mode matrix](docs/infrastructure/failure-mode-matrix.md)
 - [Infrastructure samples](samples/infrastructure)
 
+## Quality Signal
+
+- [Quality signal notes](docs/quality-signal.md)
+- [Sample PHP syntax workflow](.github/workflows/sample-php-lint.yml)
+- [Samples directory](samples)
+
 ## Security & Privacy Notes
 
 Production customer data, phone numbers, messages, provider credentials, internal workflows, and private logs are excluded.
