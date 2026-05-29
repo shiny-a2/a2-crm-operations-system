@@ -124,6 +124,10 @@ flowchart TD
 - [Sample PHP syntax workflow](.github/workflows/sample-php-lint.yml)
 - [Samples directory](samples)
 
+## Related Technical Writing
+
+- [CRM Operator Inboxes Need State Boundaries](https://github.com/shiny-a2/shiny-a2/blob/main/docs/technical-writing/articles/crm-operator-inboxes-need-state-boundaries.md)
+
 ## Security & Privacy Notes
 
 Production customer data, phone numbers, messages, provider credentials, internal workflows, and private logs are excluded.
