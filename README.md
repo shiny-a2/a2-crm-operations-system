@@ -76,6 +76,7 @@ flowchart TD
 - Provider adapters fail closed and return structured status.
 - Audit records store what changed without exposing private message content in public samples.
 - Reporting queries are separated from high-frequency operator interactions.
+- Mobile floating controls use measured bottom-surface offsets instead of device-specific hard-coded positions.
 
 ## Performance Strategy
 
@@ -110,6 +111,7 @@ flowchart TD
 - [Operator inbox state boundaries](docs/engineering-notes/operator-inbox-state-boundaries.md)
 - [Provider abstraction for SMS and VoIP](docs/engineering-notes/provider-abstraction-for-sms-and-voip.md)
 - [Reporting without live query pressure](docs/engineering-notes/reporting-without-live-query-pressure.md)
+- [Mobile floating control resilience](docs/engineering-notes/mobile-floating-control-resilience.md)
 
 ## Infrastructure Notes
 

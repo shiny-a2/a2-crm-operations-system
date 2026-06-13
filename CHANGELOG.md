@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.1 - Mobile Floating UI Note
+
+- Added a public-safe engineering note about keeping mobile support and promotion controls above changing bottom navigation and product action surfaces.
+- Updated the README quality/failure-prevention path to include measured mobile placement as a maintenance concern.
+
 ## 0.3.0 - Activity Layer
 
 - Added roadmap, known limitations, contribution notes, and issue template.
@@ -18,4 +23,3 @@
 
 - Samples assume WordPress user/capability APIs.
 - Provider adapters are illustrative and intentionally do not include real SMS/VoIP credentials or endpoints.
-
