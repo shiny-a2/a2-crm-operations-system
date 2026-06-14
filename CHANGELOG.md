@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.6 - Admin Report Filter Diagnostics Note
+
+- Added a public-safe note about using plugin-specific admin report range parameters when generic date query names can be intercepted by security layers.
+- Documented event-table diagnostics as a maintenance pattern for distinguishing empty reports from blocked requests or stale cached HTML.
+
 ## 0.3.5 - Direct Admin Route Guard Note
 
 - Added a public-safe note about registering direct admin report routes defensively when an operations page is linked outside the normal menu flow.

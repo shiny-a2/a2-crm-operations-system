@@ -9,6 +9,8 @@
 - Commission reports should keep product-category rules separate from payment-gateway rules so mixed orders do not apply a gateway discount to the wrong item group.
 - Wide-range reports should have bounded scans and cache versioning so a single dashboard request cannot fail like a missing admin page.
 - Critical admin report routes should be reachable directly and fail visibly with an operator-facing notice rather than falling through as a missing page.
+- Admin report filters should prefer namespaced range parameters and preserve legacy compatibility so external security rules cannot turn date filtering into a missing-page symptom.
+- Report diagnostics should expose raw event coverage, valid identity counts, and event-name breakdowns before assuming a dashboard KPI is actually zero.
 
 ## Maintenance Cadence
 
