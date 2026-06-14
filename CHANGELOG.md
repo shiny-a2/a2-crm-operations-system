@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.3 - Commission Rule Note
+
+- Added a public-safe note that commission logic should separate category-based product rates from gateway-based payment adjustments.
+- Documented mixed-order commission handling as an operational accuracy concern for reporting.
+
 ## 0.3.2 - Admin Origin Reliability Note
 
 - Added a public-safe maintenance note for keeping CRM admin actions on the current WordPress admin origin in mixed host/proxy environments.
