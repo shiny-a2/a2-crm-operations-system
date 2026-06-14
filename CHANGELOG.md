@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.4 - Report Range Resilience Note
+
+- Added a public-safe note about bounding expensive reporting scans so wide date ranges do not destabilize an admin page.
+- Documented cache-key refreshes as part of report performance fixes.
+
 ## 0.3.3 - Commission Rule Note
 
 - Added a public-safe note that commission logic should separate category-based product rates from gateway-based payment adjustments.
