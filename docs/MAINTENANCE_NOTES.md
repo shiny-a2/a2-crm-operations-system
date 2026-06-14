@@ -8,6 +8,7 @@
 - Admin AJAX, exports, and report filters should resolve against the current WordPress admin origin so host aliases or proxy scheme differences do not look like empty CRM data.
 - Commission reports should keep product-category rules separate from payment-gateway rules so mixed orders do not apply a gateway discount to the wrong item group.
 - Wide-range reports should have bounded scans and cache versioning so a single dashboard request cannot fail like a missing admin page.
+- Critical admin report routes should be reachable directly and fail visibly with an operator-facing notice rather than falling through as a missing page.
 
 ## Maintenance Cadence
 

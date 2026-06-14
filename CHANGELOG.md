@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.5 - Direct Admin Route Guard Note
+
+- Added a public-safe note about registering direct admin report routes defensively when an operations page is linked outside the normal menu flow.
+- Documented guarded report rendering so runtime failures can surface as admin notices instead of missing-page symptoms.
+
 ## 0.3.4 - Report Range Resilience Note
 
 - Added a public-safe note about bounding expensive reporting scans so wide date ranges do not destabilize an admin page.
