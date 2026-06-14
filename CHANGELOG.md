@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.7 - Report Lookup Performance Note
+
+- Added a public-safe note about replacing per-record identity lookups in reporting code with a single bulk lookup map.
+- Documented preserving lookup precedence while removing N+1 database queries from admin report render paths.
+
 ## 0.3.6 - Admin Report Filter Diagnostics Note
 
 - Added a public-safe note about using plugin-specific admin report range parameters when generic date query names can be intercepted by security layers.

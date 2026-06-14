@@ -11,6 +11,7 @@
 - Critical admin report routes should be reachable directly and fail visibly with an operator-facing notice rather than falling through as a missing page.
 - Admin report filters should prefer namespaced range parameters and preserve legacy compatibility so external security rules cannot turn date filtering into a missing-page symptom.
 - Report diagnostics should expose raw event coverage, valid identity counts, and event-name breakdowns before assuming a dashboard KPI is actually zero.
+- Report render paths should avoid per-record identity lookups; build bulk lookup maps first and keep any existing precedence rules explicit.
 
 ## Maintenance Cadence
 
