@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.2 - Admin Origin Reliability Note
+
+- Added a public-safe maintenance note for keeping CRM admin actions on the current WordPress admin origin in mixed host/proxy environments.
+- Documented report/filter form actions as an operational reliability concern for date-range reporting.
+
 ## 0.3.1 - Mobile Floating UI Note
 
 - Added a public-safe engineering note about keeping mobile support and promotion controls above changing bottom navigation and product action surfaces.
