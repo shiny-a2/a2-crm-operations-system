@@ -12,7 +12,8 @@
 - Admin report filters should prefer namespaced range parameters and preserve legacy compatibility so external security rules cannot turn date filtering into a missing-page symptom.
 - Report diagnostics should expose raw event coverage, valid identity counts, and event-name breakdowns before assuming a dashboard KPI is actually zero.
 - Report render paths should avoid per-record identity lookups; build bulk lookup maps first and keep any existing precedence rules explicit.
-- External-buyer reports should rely on order attribution metadata, while behavior metrics should rely on grouped tracking events and clearly flag known tracking gaps.
+- Keep operator-selected CRM outcome buckets separate from order-attribution source buckets; source reports should reconcile with all successful orders, including Direct, Admin/Internal, Unknown, and checkout questionnaire values.
+- Behavior metrics should rely on grouped tracking events and clearly flag known tracking gaps.
 
 ## Maintenance Cadence
 

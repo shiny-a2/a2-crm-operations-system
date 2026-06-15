@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.9 - Source Bucket Separation Note
+
+- Clarified that operator-selected "purchased elsewhere" CRM statuses are a separate reporting bucket from order-attribution source reporting.
+- Added a public-safe note about reconciling order-source reports with all successful orders, including Direct, Admin/Internal, Unknown, and checkout questionnaire buckets.
+
 ## 0.3.8 - Attribution And Dwell Reporting Note
 
 - Added a public-safe note about deriving external-buyer buckets from order attribution metadata instead of manual CRM statuses.
