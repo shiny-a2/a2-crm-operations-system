@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.14 - Clean Admin Export Route Note
+
+- Added a public-safe note about serving finance spreadsheet exports without admin page chrome.
+- Documented using a headerless export path so downloaded files contain only report data.
+
 ## 0.3.13 - Clean Finance Export Note
 
 - Added a public-safe note about replacing cluttered report dumps with separated spreadsheet tabs for finance review.
