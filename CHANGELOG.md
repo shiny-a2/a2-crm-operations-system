@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.12 - Commission Reconciliation Note
+
+- Added a public-safe note about reconciling split-payment or adjusted orders so totals are counted once while payment shares remain visible.
+- Documented why finance exports should expose final totals, main payment shares, and remaining collection shares separately.
+
 ## 0.3.11 - Commission Remaining Export Note
 
 - Added a public-safe note about separating remaining/extra collection amounts from main product commission buckets.
