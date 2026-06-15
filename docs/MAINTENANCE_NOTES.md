@@ -13,6 +13,7 @@
 - Report diagnostics should expose raw event coverage, valid identity counts, and event-name breakdowns before assuming a dashboard KPI is actually zero.
 - Report render paths should avoid per-record identity lookups; build bulk lookup maps first and keep any existing precedence rules explicit.
 - Keep operator-selected CRM outcome buckets separate from order-attribution source buckets; source reports should reconcile with all successful orders, including Direct, Admin/Internal, Unknown, and checkout questionnaire values.
+- When the same checkout questionnaire field is useful for both successful-order and all-order reporting, show those scopes as separate cards so failed or pending orders do not distort conversion-oriented views.
 - Behavior metrics should rely on grouped tracking events and clearly flag known tracking gaps.
 
 ## Maintenance Cadence

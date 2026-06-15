@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.10 - Checkout Acquaintance Reporting Note
+
+- Added a public-safe note about showing checkout questionnaire distributions separately for successful orders and all orders.
+- Documented using distinct chart treatments when two adjacent report cards share the same source field but different order scopes.
+
 ## 0.3.9 - Source Bucket Separation Note
 
 - Clarified that operator-selected "purchased elsewhere" CRM statuses are a separate reporting bucket from order-attribution source reporting.
