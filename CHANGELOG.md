@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.8 - Attribution And Dwell Reporting Note
+
+- Added a public-safe note about deriving external-buyer buckets from order attribution metadata instead of manual CRM statuses.
+- Documented event-grouped dwell and no-activity metrics, including warnings when tracking gaps make historical event-based reports incomplete.
+
 ## 0.3.7 - Report Lookup Performance Note
 
 - Added a public-safe note about replacing per-record identity lookups in reporting code with a single bulk lookup map.
