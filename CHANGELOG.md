@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.13 - Clean Finance Export Note
+
+- Added a public-safe note about replacing cluttered report dumps with separated spreadsheet tabs for finance review.
+- Documented exporting financial amounts as real spreadsheet number cells instead of formatted text.
+
 ## 0.3.12 - Commission Reconciliation Note
 
 - Added a public-safe note about reconciling split-payment or adjusted orders so totals are counted once while payment shares remain visible.

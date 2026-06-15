@@ -10,6 +10,7 @@
 - Remaining or extra collection amounts should be reported as their own commission bucket when their rate policy differs from the main payment gateway.
 - Split-payment or adjusted orders need a single reconciled final total plus visible payment shares; otherwise commission and receipt reports can double-count the remaining amount.
 - Management reports should offer spreadsheet exports that match on-screen totals so finance review does not depend on manual copying.
+- Finance exports are easier to audit when summary, bucket totals, payment gateways, order rows, and settlement rows are separated into spreadsheet tabs with numeric cells.
 - Wide-range reports should have bounded scans and cache versioning so a single dashboard request cannot fail like a missing admin page.
 - Critical admin report routes should be reachable directly and fail visibly with an operator-facing notice rather than falling through as a missing page.
 - Admin report filters should prefer namespaced range parameters and preserve legacy compatibility so external security rules cannot turn date filtering into a missing-page symptom.
