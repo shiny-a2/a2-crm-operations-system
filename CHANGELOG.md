@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.11 - Commission Remaining Export Note
+
+- Added a public-safe note about separating remaining/extra collection amounts from main product commission buckets.
+- Documented a managerial spreadsheet export pattern for commission reports without exposing production order data.
+
 ## 0.3.10 - Checkout Acquaintance Reporting Note
 
 - Added a public-safe note about showing checkout questionnaire distributions separately for successful orders and all orders.
