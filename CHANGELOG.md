@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.16 - Editable In-Person Select Lists Note
+
+- Added a public-safe note about allowing operators to extend structured in-person order select lists from inside the workflow instead of falling back to free-text fields.
+- Documented clearer manual line-item insertion for cases where an in-person product is not represented by the online catalog.
+
 ## 0.3.15 - In-Person Store Operations Note
 
 - Added a public-safe note about treating in-person store orders as managed CRM operations with editable customer records, structured payment/source/warehouse metadata, and financial history boundaries.
