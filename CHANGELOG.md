@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.15 - In-Person Store Operations Note
+
+- Added a public-safe note about treating in-person store orders as managed CRM operations with editable customer records, structured payment/source/warehouse metadata, and financial history boundaries.
+- Documented return and exchange adjustments as explicit operational events so totals and loyalty feedback can change without hiding what was exchanged or refunded.
+
 ## 0.3.14 - Clean Admin Export Route Note
 
 - Added a public-safe note about serving finance spreadsheet exports without admin page chrome.

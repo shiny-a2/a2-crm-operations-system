@@ -77,6 +77,7 @@ flowchart TD
 - Audit records store what changed without exposing private message content in public samples.
 - Reporting queries are separated from high-frequency operator interactions.
 - Mobile floating controls use measured bottom-surface offsets instead of device-specific hard-coded positions.
+- In-person store workflows keep customer edits, financial order records, return/exchange adjustments, warehouse context, and loyalty feedback as explicit CRM operations.
 
 ## Performance Strategy
 
