@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.19 - Order Storage Compatibility, Drill-Down Performance, And Invoice Detail Note
+
+- Added a public-safe note about keeping customer order history visible regardless of the commerce platform's order-storage backend: when a store moves orders to a high-performance storage engine, list views that read the legacy storage directly must fall back to a storage-agnostic lookup, and that fallback should be gated so stores on the legacy backend keep their fast path.
+- Documented drill-down performance patterns for management reporting: caching per-customer order-status breakdowns, memoizing a repeated lookup so it runs once per customer per request instead of several times, and avoiding an extra lookup for customers with no orders — all aimed at keeping the "show the list behind this number" action responsive.
+- Clarified an inclusive-date-range rule (the end day of a range must be fully included) and a status-labeling rule (show the platform's real status name, including custom statuses, rather than a raw internal slug) for order-history views.
+- Added a public-safe note about a reporting-consistency fix: a daily trend chart must dedupe by customer the same way its headline metric does, so the chart total and the metric agree.
+- Documented enriching a commission/settlement export's order rows with the product name(s) of each order so the invoice detail is self-explanatory.
+
 ## 0.3.18 - Operator Console Performance And Cross-Channel Reporting Note
 
 - Added a public-safe note about keeping the operator console responsive by loading expensive per-row enrichments (product suggestions) lazily and cached, scoping lookup maps to the rows actually shown instead of scanning whole tables, and never performing a blocking external AI request during a list render.
