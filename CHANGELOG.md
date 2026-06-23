@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.20 - Report Buckets On High-Performance Order Storage Note
+
+- Added a public-safe note about extending storage-agnostic order reads from individual customer views to the aggregate management/range reports, so order-based report buckets (successful purchase, cancelled, failed), the funnel "purchased" stage, and failed/cancelled revenue sums stay correct when a store moves orders to a high-performance storage backend.
+- Documented centralizing the "customers with orders in status X during range Y" lookup so a single storage-aware implementation feeds every report bucket and drill-down that depends on it, rather than duplicating storage assumptions across many call sites.
+- Reiterated the gating discipline: each storage-backend branch is enabled only when that backend is actually active, with the original query retained as a fallback, so stores on the classic backend are byte-for-byte unchanged.
+
 ## 0.3.19 - Order Storage Compatibility, Drill-Down Performance, And Invoice Detail Note
 
 - Added a public-safe note about keeping customer order history visible regardless of the commerce platform's order-storage backend: when a store moves orders to a high-performance storage engine, list views that read the legacy storage directly must fall back to a storage-agnostic lookup, and that fallback should be gated so stores on the legacy backend keep their fast path.
