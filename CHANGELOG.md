@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.21 - Safe Indexing, Query Robustness, And Self-Service Completeness Note
+
+- Added a public-safe note about adding a dedicated time index to the high-volume events table so time-ranged report drill-downs use an index instead of scanning, applied idempotently on activation/repair.
+- Documented replacing an unbounded "build a giant id list in code then query it" pattern with an EXISTS subquery, so a "returning customers" style drill-down can't silently return nothing when the id list outgrows the database packet limit.
+- Reiterated the per-request memoization discipline: existence/availability checks that were repeated inside a row loop should run once per request, not once per row.
+- Added a public-safe note about completing a self-service surface: an address book that previously showed only a couple of fields read-only is now a full, validated, save-capable form for billing and shipping details.
+- Documented resolving foreign-key identifiers to human-readable names (contact and owner) in back-office list views, with an explicit "showing first N rows" notice wherever a list is capped.
+
 ## 0.3.20 - Report Buckets On High-Performance Order Storage Note
 
 - Added a public-safe note about extending storage-agnostic order reads from individual customer views to the aggregate management/range reports, so order-based report buckets (successful purchase, cancelled, failed), the funnel "purchased" stage, and failed/cancelled revenue sums stay correct when a store moves orders to a high-performance storage backend.
