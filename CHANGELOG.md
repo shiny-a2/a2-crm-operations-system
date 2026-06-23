@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.17 - In-Person Orders Visibility And Integrity Note
+
+- Added a public-safe note about always giving operators a direct, range-filtered list of the in-person orders that the summary counters already total, so a recorded sale is never counted-but-invisible, including walk-ins that are explicitly flagged as not yet linked to a customer record.
+- Documented promoting a first-time walk-in into a managed customer record at the moment a sale is recorded, so the buyer appears in lists and reporting instead of existing only as a detached order.
+- Clarified classification-integrity rules so an in-person customer is not silently reclassified by a later website interaction, and so records with a blank classification are still surfaced rather than disappearing from operational lists.
+- Added a public-safe note about counting "today" against the store's local day and recording an audit entry whenever an in-person order is created or edited.
+- Documented data-protection hardening as operational boundaries: keeping exported back-office data files out of public reach, neutralizing spreadsheet-formula injection in exports, requiring an action token on a data export, rate-limiting and minimizing the data returned by public lookup/submit endpoints, and constraining a call-recording download to a validated path.
+
 ## 0.3.16 - Editable In-Person Select Lists Note
 
 - Added a public-safe note about allowing operators to extend structured in-person order select lists from inside the workflow instead of falling back to free-text fields.
