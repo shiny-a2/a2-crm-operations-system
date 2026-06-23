@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.18 - Operator Console Performance And Cross-Channel Reporting Note
+
+- Added a public-safe note about keeping the operator console responsive by loading expensive per-row enrichments (product suggestions) lazily and cached, scoping lookup maps to the rows actually shown instead of scanning whole tables, and never performing a blocking external AI request during a list render.
+- Documented counting in-progress orders via a paginated total rather than loading every record id, as a general pattern for portal summary widgets.
+- Clarified a loyalty-points unit rule: in-store amounts captured in the display unit must be normalized to the same base unit as online amounts before points are computed, to avoid an order-of-magnitude under-award on stores configured in the smaller currency unit.
+- Added public-safe notes about cross-channel reporting: combined online and in-store revenue summaries on one dashboard (with consistent unit normalization), and per-operator in-store sales (orders, gross, returns, net) attributed to the operator who booked them.
+- Documented usability and honesty improvements: searchable in-store customer lists that span all dates, a visible loyalty points-history ledger, removing a perpetually-empty "pending" figure, and hiding navigation entries that have no implementation rather than showing blank panels.
+
 ## 0.3.17 - In-Person Orders Visibility And Integrity Note
 
 - Added a public-safe note about always giving operators a direct, range-filtered list of the in-person orders that the summary counters already total, so a recorded sale is never counted-but-invisible, including walk-ins that are explicitly flagged as not yet linked to a customer record.
