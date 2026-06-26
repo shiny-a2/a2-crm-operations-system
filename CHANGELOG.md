@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.23 - Chronological Ledger Ordering Note
+
+- Added a public-safe note about ordering settlement ledger lines (receipts and expenses) chronologically rather than by how they were assembled (manual entries before auto-generated ones), so the on-screen tables and the spreadsheet export both read in date order.
+
 ## 0.3.22 - Bounded Drill-Down Rendering Note
 
 - Added a public-safe note about bounding how many rows a report drill-down renders at once: render the newest N (with the true total shown and a notice), rather than rendering every record in a bucket and performing per-row external lookups for each on a single load. This keeps "show the list behind this number" fast on large buckets without changing any matching, counting, or calculation logic, and lets the caller request a larger page when needed.
