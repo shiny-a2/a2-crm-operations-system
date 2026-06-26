@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.22 - Bounded Drill-Down Rendering Note
+
+- Added a public-safe note about bounding how many rows a report drill-down renders at once: render the newest N (with the true total shown and a notice), rather than rendering every record in a bucket and performing per-row external lookups for each on a single load. This keeps "show the list behind this number" fast on large buckets without changing any matching, counting, or calculation logic, and lets the caller request a larger page when needed.
+
 ## 0.3.21 - Safe Indexing, Query Robustness, And Self-Service Completeness Note
 
 - Added a public-safe note about adding a dedicated time index to the high-volume events table so time-ranged report drill-downs use an index instead of scanning, applied idempotently on activation/repair.
