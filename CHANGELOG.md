@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.24 - Calendar-Aware Date Sort-Key Note
+
+- Added a public-safe note about normalizing dates before sorting a settlement ledger: manually-entered rows can carry a localized calendar/format (alternate digits, alternate separators, non-zero-padded, or a different calendar system) that a naive string sort misorders. Deriving a normalized canonical date key (converting digits, separators, padding, and calendar) before comparison makes every row sort at its true date regardless of how it was entered.
+
 ## 0.3.23 - Chronological Ledger Ordering Note
 
 - Added a public-safe note about ordering settlement ledger lines (receipts and expenses) chronologically rather than by how they were assembled (manual entries before auto-generated ones), so the on-screen tables and the spreadsheet export both read in date order.
