@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.27 - Cache-Resilient CSRF Token For Public Widgets Note
+
+- Added a public-safe note about a common failure mode for public AJAX widgets on full-page-cached sites: the CSRF token embedded in cached page HTML expires, so requests are rejected and the widget shows a generic error. The fix is to fetch a fresh token at runtime from an always-uncached endpoint on load and to retry once with a refreshed token when a request is rejected as a token failure.
+- Noted that this also restores any downstream automatic behaviour gated on the request succeeding (e.g. an automated reply that only runs once the inbound message is accepted).
+
 ## 0.3.26 - Consent-Aware Contacts Export Endpoint Note
 
 - Added a public-safe note about exposing a read-only, paginated contacts export for an outreach/messaging integration, authenticated with a dedicated, separately-revocable token (distinct from the main integration token) and disabled by default until that token is set.
