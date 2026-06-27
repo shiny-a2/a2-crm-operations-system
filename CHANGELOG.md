@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.25 - Optional AI Chat Auto-Reply With Human Handoff Note
+
+- Added a public-safe note about an optional, default-off auto-reply for the website chat: when enabled, an external assistant service answers a visitor's message automatically and the answer is stored as a normal chat message, kept separate from the operator-facing "suggest a reply" capability so each can be toggled independently.
+- Documented the human-handoff discipline: the conversation is flagged so the assistant stops and a human is notified both when the assistant itself signals a handoff and the moment any operator replies, so the bot never talks over a human. The after-hours canned message is suppressed while auto-reply is active to avoid conflicting automatic responses.
+- Noted a self-healing schema pattern for adding a per-conversation metadata field on older installs (used to carry the paused flag) so the feature works immediately without a manual migration step.
+
 ## 0.3.24 - Calendar-Aware Date Sort-Key Note
 
 - Added a public-safe note about normalizing dates before sorting a settlement ledger: manually-entered rows can carry a localized calendar/format (alternate digits, alternate separators, non-zero-padded, or a different calendar system) that a naive string sort misorders. Deriving a normalized canonical date key (converting digits, separators, padding, and calendar) before comparison makes every row sort at its true date regardless of how it was entered.
