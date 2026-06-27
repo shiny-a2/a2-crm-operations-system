@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.33 - Signed Loopback For Background Work Without WP-Cron Note
+
+- Added a public-safe note about running a slow background job (e.g. an assistant reply) on platforms where the built-in scheduler is disabled: instead of relying on the scheduler, fire a non-blocking loopback request to a dedicated internal endpoint that does the work immediately in its own request, so the visitor's request still returns instantly.
+- Documented protecting that endpoint without a user session: gate it with an HMAC signature (keyed by a platform secret) rather than a CSRF token, and have the background run set abort-tolerance and a higher time limit so it completes after the triggering caller disconnects; keep the scheduler path as a fallback and guard against duplicate work.
+
 ## 0.3.32 - Full-Automation Toggle For Assistant Replies Note
 
 - Added a public-safe note about an optional "answer every conversation" mode for the chat assistant: a default-off toggle that, when enabled, has the assistant respond to all conversations and ignore the auto-pause that normally keeps it silent once a human has stepped in or a handoff was requested (the human is still notified on handoff). This makes full automation an explicit operator choice rather than a hidden default.
