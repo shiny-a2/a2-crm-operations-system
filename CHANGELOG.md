@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.26 - Consent-Aware Contacts Export Endpoint Note
+
+- Added a public-safe note about exposing a read-only, paginated contacts export for an outreach/messaging integration, authenticated with a dedicated, separately-revocable token (distinct from the main integration token) and disabled by default until that token is set.
+- Documented honouring opt-out from every source of truth: the export treats a contact as opted-out if either the contact's consent field says so or the suppression/blacklist list contains the number, and supports an opt-in-only filter so the messaging side never contacts a suppressed number.
+- Reiterated pagination and bounded page-size discipline for large directory exports, and constant-time token comparison for the access check.
+
 ## 0.3.25 - Optional AI Chat Auto-Reply With Human Handoff Note
 
 - Added a public-safe note about an optional, default-off auto-reply for the website chat: when enabled, an external assistant service answers a visitor's message automatically and the answer is stored as a normal chat message, kept separate from the operator-facing "suggest a reply" capability so each can be toggled independently.
