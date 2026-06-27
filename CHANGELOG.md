@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.30 - Capturing Customer Name From Bots/Chat Note
+
+- Added a public-safe note about writing a customer's name back into the CRM from conversational channels: a token-protected endpoint that upserts a contact by its messaging-platform id (reusing the existing per-channel id column rather than adding a new one), and an in-chat path where an assistant reply that includes an extracted name updates the conversation's linked contact with no extra network call.
+- Emphasized two correctness rules: do a targeted name-only update so unrelated contact fields (phone/email/etc.) are never wiped, and apply a storage-safe name cleanup (normalize alternate letter forms, collapse spacing) distinct from the aggressive search-normalizer used for matching.
+
 ## 0.3.29 - Audience Export Should Union All Phone Sources Note
 
 - Added a public-safe note about audience exports that read only the fully-formed "contacts" table and therefore under-count: many numbers live as lighter "lead" records (captured from popups/forms) that were never promoted to a contact. Unioning both sources and de-duplicating by phone yields the full reachable audience.
