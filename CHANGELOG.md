@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.32 - Full-Automation Toggle For Assistant Replies Note
+
+- Added a public-safe note about an optional "answer every conversation" mode for the chat assistant: a default-off toggle that, when enabled, has the assistant respond to all conversations and ignore the auto-pause that normally keeps it silent once a human has stepped in or a handoff was requested (the human is still notified on handoff). This makes full automation an explicit operator choice rather than a hidden default.
+
 ## 0.3.31 - Async Assistant Reply Off The Request Path Note
 
 - Added a public-safe note about moving a slow assistant reply out of the visitor's request: persist the inbound message and return immediately, then generate the reply in a background job so it runs free of the request-time fail-fast timeout policy and the visitor isn't kept waiting; the UI shows the reply on its next poll.
