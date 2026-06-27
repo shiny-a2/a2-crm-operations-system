@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.31 - Async Assistant Reply Off The Request Path Note
+
+- Added a public-safe note about moving a slow assistant reply out of the visitor's request: persist the inbound message and return immediately, then generate the reply in a background job so it runs free of the request-time fail-fast timeout policy and the visitor isn't kept waiting; the UI shows the reply on its next poll.
+- Documented two supporting practices: a unique key per inbound message so a duplicate-job guard doesn't collapse rapid back-and-forth, and debug breadcrumbs at every decision point of the auto-reply so a silent skip (such as a conversation a human has already taken over) is easy to pinpoint.
+
 ## 0.3.30 - Capturing Customer Name From Bots/Chat Note
 
 - Added a public-safe note about writing a customer's name back into the CRM from conversational channels: a token-protected endpoint that upserts a contact by its messaging-platform id (reusing the existing per-channel id column rather than adding a new one), and an in-chat path where an assistant reply that includes an extracted name updates the conversation's linked contact with no extra network call.
