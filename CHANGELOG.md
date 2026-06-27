@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.29 - Audience Export Should Union All Phone Sources Note
+
+- Added a public-safe note about audience exports that read only the fully-formed "contacts" table and therefore under-count: many numbers live as lighter "lead" records (captured from popups/forms) that were never promoted to a contact. Unioning both sources and de-duplicating by phone yields the full reachable audience.
+- Documented preserving consent semantics across the union: consent/opt-out status is taken from the richer contact record, lead-only numbers default to opt-in, and suppression-list membership still forces opt-out — with totals computed over the de-duplicated set.
+
 ## 0.3.28 - Per-Integration Timeout Override Under A Fail-Fast Egress Policy Note
 
 - Added a public-safe note about a subtle interaction between a hardened egress policy and a slow-but-legitimate upstream: when the platform clamps every outbound request timeout to a low value for admin responsiveness, a call to an assistant/service that needs several seconds will time out and the dependent automation silently does nothing — even though a manual shell request to the same upstream succeeds (it isn't subject to the platform-level filter).
