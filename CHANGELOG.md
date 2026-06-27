@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.28 - Per-Integration Timeout Override Under A Fail-Fast Egress Policy Note
+
+- Added a public-safe note about a subtle interaction between a hardened egress policy and a slow-but-legitimate upstream: when the platform clamps every outbound request timeout to a low value for admin responsiveness, a call to an assistant/service that needs several seconds will time out and the dependent automation silently does nothing — even though a manual shell request to the same upstream succeeds (it isn't subject to the platform-level filter).
+- Documented the resolution: re-assert a longer timeout for only the specific integration's host via a late-priority request-args adjustment, so the global fail-fast protection stays in force for every other outbound call, and log upstream errors/empty responses behind a debug flag for fast diagnosis.
+
 ## 0.3.27 - Cache-Resilient CSRF Token For Public Widgets Note
 
 - Added a public-safe note about a common failure mode for public AJAX widgets on full-page-cached sites: the CSRF token embedded in cached page HTML expires, so requests are rejected and the widget shows a generic error. The fix is to fetch a fresh token at runtime from an always-uncached endpoint on load and to retry once with a refreshed token when a request is rejected as a token failure.
