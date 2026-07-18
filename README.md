@@ -77,6 +77,7 @@ flowchart TD
 - Audit records store what changed without exposing private message content in public samples.
 - Reporting queries are separated from high-frequency operator interactions.
 - Mobile floating controls use measured bottom-surface offsets instead of device-specific hard-coded positions.
+- Security refactors begin from a private, byte-verifiable deployed-source baseline while environment configuration remains outside version control.
 - In-person store workflows keep customer edits, financial order records, return/exchange adjustments, warehouse context, and loyalty feedback as explicit CRM operations.
 - Structured in-person order fields can be extended by operators without turning reporting-critical values into unbounded free text.
 
