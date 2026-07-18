@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.34 - Production Source Provenance Before Security Refactoring
+
+- Added a public-safe note about capturing the deployed CRM source as a byte-verifiable private baseline before identity, chat, and public-form security work begins.
+- Documented the safety boundary: environment-specific configuration stays outside Git, source and JavaScript syntax are checked, and the baseline records provenance without changing live runtime state.
+- Kept production source, checksums, filenames, versions, provider configuration, client identity, security findings, and operational paths private.
+
 ## 0.3.33 - Signed Loopback For Background Work Without WP-Cron Note
 
 - Added a public-safe note about running a slow background job (e.g. an assistant reply) on platforms where the built-in scheduler is disabled: instead of relying on the scheduler, fire a non-blocking loopback request to a dedicated internal endpoint that does the work immediately in its own request, so the visitor's request still returns instantly.
