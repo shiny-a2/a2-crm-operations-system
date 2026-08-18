@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.35 - Commission Attribution For Offline And In-Store Receipts Note
+
+- Added a public-safe note about making a sales-commission report treat off-gateway receipts consistently: money collected outside the main online gateway (via manual/card-reader channels recorded on the order) earns its own flat rate independent of the main gateway, read from the order's authoritative offline-receipt rows rather than a flattened summary field that could miss it.
+- Documented an operator-policy toggle that excludes a direct in-store payment channel (the shop's own card-reader) from commission entirely: its amount is still shown in the breakdown for reconciliation, but it earns nothing, since a walk-in card-reader sale is not a referred/attributed sale.
+- Noted that the spreadsheet export and the messaging finance endpoint both read the same shared calculation, so the on-screen report, the export, and the bot can never drift; each rule was staged behind a default-off filter and verified with a before/after run before activation.
+- Kept production source, client identity, gateway and channel names, exact figures, order data, and operational paths private.
+
 ## 0.3.34 - Production Source Provenance Before Security Refactoring
 
 - Added a public-safe note about capturing the deployed CRM source as a byte-verifiable private baseline before identity, chat, and public-form security work begins.
