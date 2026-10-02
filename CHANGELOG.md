@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.37 - Legacy payment evidence compatibility
+
+- Preserved older correction-payment records in the bounded reconciliation query without broadening recipient attribution. Added a regression for the legacy evidence path.
+
 ## 0.3.36 - Date-consistent commission and owner cash reconciliation
 
 - Replaced flattened payment summaries with evidence for individual recipients and payment methods, separating received money from outstanding corrections.
