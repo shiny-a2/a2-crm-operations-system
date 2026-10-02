@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.36 - Date-consistent commission and owner cash reconciliation
+
+- Replaced flattened payment summaries with evidence for individual recipients and payment methods, separating received money from outstanding corrections.
+- Unified management and commission calculations, with opening balances, selected-period activity and closing balances.
+- Applied product-specific rules with effective dates and recorded refund reversals in their correct periods.
+- Prevented repeated fixed compensation when reports are split inside a calendar month.
+- Added audited, retry-safe expense entry and an explicit account selector for manual order refunds.
+- Checked synthetic regressions and read-only live aggregate reconciliation. Earlier notes describe historical policies; the current implementation uses the reviewed product and payment rules.
+- Production source, exact rates, identities, monetary figures and operational records remain private.
+
 ## 0.3.35 - Commission Attribution For Offline And In-Store Receipts Note
 
 - Added a public-safe note about making a sales-commission report treat off-gateway receipts consistently: money collected outside the main online gateway (via manual/card-reader channels recorded on the order) earns its own flat rate independent of the main gateway, read from the order's authoritative offline-receipt rows rather than a flattened summary field that could miss it.
