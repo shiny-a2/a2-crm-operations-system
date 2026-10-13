@@ -10,6 +10,10 @@ This repository documents architecture and representative samples only. It does 
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 
+## Education adaptation in progress
+
+A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting. Its local demo includes student records, consultant-scoped access, a dedicated operator workspace, follow-up tasks, activity history, and a reviewed student-profile workflow. The adaptation uses synthetic data and an independent database. Public staging, external AI delivery, full operator feature parity, and Node.js migration remain future milestones.
+
 ## Reviewer Shortcut
 
 This repo demonstrates a WordPress-based CRM and customer operations system through public-safe architecture notes and sanitized samples. It relates to operator inboxes, assignment state, provider callbacks, reporting snapshots, and auditability inside commerce operations. It proves state boundaries, provider abstraction, live-query avoidance, and fail-visible operations. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.38 - Education CRM adaptation note
+
+- Documented a separate education-focused WordPress CRM prototype that reuses operator workflow patterns with isolated data and consultant-scoped access.
+- Clarified that the operator workspace, follow-up queue, and reviewed student-profile flow are local demo features; public staging, external AI delivery, and Node.js migration are still pending.
+- Kept private source, customer data, credentials, hosting details, and internal integration contracts out of the public showcase.
+
 ## 0.3.37 - Legacy payment evidence compatibility
 
 - Preserved older correction-payment records in the bounded reconciliation query without broadening recipient attribution. Added a regression for the legacy evidence path.
