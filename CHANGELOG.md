@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.39 - Education staging status
+
+- Updated the education prototype's public status: its local workflows remain available for review, while staging awaits hosting access and environment checks.
+- Avoided implying a deployment or migration had occurred; hosting details and credentials remain private.
+
 ## 0.3.38 - Education CRM adaptation note
 
 - Documented a separate education-focused WordPress CRM prototype that reuses operator workflow patterns with isolated data and consultant-scoped access.
