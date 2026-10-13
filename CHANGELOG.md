@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.40 - Education staging target correction
+
+- Corrected the earlier staging status after verifying the intended server through read-only access and checking baseline capacity and existing service health.
+- Kept public deployment and application acceptance pending, without disclosing private hosting details.
+
 ## 0.3.39 - Education staging status
 
 - Updated the education prototype's public status: its local workflows remain available for review, while staging awaits hosting access and environment checks.

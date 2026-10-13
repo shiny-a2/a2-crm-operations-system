@@ -12,7 +12,7 @@ Financial reporting now separates compensation from cash held by an account owne
 
 ## Education adaptation in progress
 
-A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting. Its local demo includes student records, consultant-scoped access, a dedicated operator workspace, follow-up tasks, activity history, and a reviewed student-profile workflow. The adaptation uses synthetic data and an independent database. Public staging is awaiting hosting access and environment checks; external AI delivery, full operator feature parity, and Node.js migration remain future milestones.
+A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting. Its local demo includes student records, consultant-scoped access, a dedicated operator workspace, follow-up tasks, activity history, and a reviewed student-profile workflow. The adaptation uses synthetic data and an independent database. Read-only staging preflight has passed on the intended server; public deployment and acceptance, external AI delivery, full operator feature parity, and Node.js migration remain future milestones.
 
 ## Reviewer Shortcut
 
