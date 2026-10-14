@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.43 - Education pipeline policy and AI boundary design
+
+- Added configurable student stage labels and allowed transitions to the separate Education staging CRM, with manager-only policy edits and protection for stages already in use.
+- Verified stage policy, role boundaries, and the editor with synthetic API and responsive browser checks.
+- Documented a future shared, tenant-isolated AI service with approved knowledge and budget controls. No AI integration or public HTTPS acceptance is claimed.
+
 ## 0.3.42 - Education CRM workflow expansion
 
 - Added scoped B2B interaction history, student stage history, internal first follow-up tasks, and recent-activity reporting to the separate Education staging CRM.
