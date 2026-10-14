@@ -10,4 +10,4 @@ Educational consulting needs both an individual student history and the organiza
 
 ## Verification and limits
 
-Internal tests used synthetic records to exercise login and logout, manager and consultant access, B2B links, follow-up state, reports, and backup recovery. Public DNS and HTTPS acceptance have not happened. External chat, messaging, phone integration, payments, richer education fields, full source-system feature parity, and the future Node.js version are outside this release. No customer records, credentials, or server internals are included here.
+Internal tests used synthetic records to exercise login and logout, manager and consultant access, B2B links, follow-up state, reports, and backup recovery. A separate authoritative DNS preflight now resolves the known web routes from outside the server; domain delegation and public HTTPS acceptance have not happened. External chat, messaging, phone integration, payments, richer education fields, full source-system feature parity, and the future Node.js version are outside this release. No customer records, credentials, or server internals are included here.
