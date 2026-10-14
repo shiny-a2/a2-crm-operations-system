@@ -6,6 +6,8 @@ The private Education adaptation reached an isolated WordPress staging installat
 
 A later staging update made student and organization edits conditional on their current record revision. This prevents a concurrent edit from silently overwriting a newer version. Synthetic tests now cover a successful update and a stale update rejected for each record type.
 
+The next iteration added scoped organization interactions, student stage history, one internal follow-up task for new leads, and recent-activity totals. The Education instance remains independent of the source retail CRM and external AI systems. Core integrity was rechecked against the official WordPress package; synthetic browser, role, API, and backup checks were repeated. Public HTTPS acceptance is still outstanding.
+
 ## Why it matters
 
 Educational consulting needs both an individual student history and the organization responsible for a partnership. Linking those records and limiting each operator's view makes the workflow usable without importing a retail customer database. An isolated backup and disposable restore drill provide a concrete recovery path for the staging instance.

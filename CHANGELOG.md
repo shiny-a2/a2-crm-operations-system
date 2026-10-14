@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.42 - Education CRM workflow expansion
+
+- Added scoped B2B interaction history, student stage history, internal first follow-up tasks, and recent-activity reporting to the separate Education staging CRM.
+- Verified the isolated WordPress core against its official package and repeated synthetic role, API, browser, and backup checks.
+- Prepared a single-subdomain DNS route while keeping existing domain delegation and services intact. Public HTTPS acceptance remains pending.
+
 ## 0.3.41 - Education CRM revision safety
 
 - Made record updates reject stale versions at the database write boundary, protecting student and B2B organization edits from concurrent overwrites.
