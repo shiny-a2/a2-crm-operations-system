@@ -12,7 +12,7 @@ Financial reporting now separates compensation from cash held by an account owne
 
 ## Education adaptation in progress
 
-A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting and B2B relationships. An isolated staging installation now runs student records linked to organizations, B2B contacts, a service catalog, non-financial contract records, named assignments, configurable stage transitions, scoped reports, an operator workspace, and audited follow-up rescheduling. Internal role, backup/restore, and responsive visual checks use synthetic data. Public DNS and HTTPS acceptance, external messaging or AI delivery, contract terms/payments, full operator feature parity, and Node.js migration remain future milestones. See [the education staging update](docs/engineering-notes/education-staging-update.md).
+A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting and B2B relationships. An isolated staging installation now runs student records linked to organizations, B2B contacts, a service catalog, non-financial contract records, named assignments, configurable stage transitions, scoped reports, an operator workspace, audited follow-up rescheduling, an internal overdue-work inbox, and manager-only audit timelines. Internal role, backup/restore, and responsive visual checks use synthetic data. Public DNS and HTTPS acceptance, external messaging or AI delivery, contract terms/payments, full operator feature parity, and Node.js migration remain future milestones. See [the education staging update](docs/engineering-notes/education-staging-update.md).
 
 ## Reviewer Shortcut
 

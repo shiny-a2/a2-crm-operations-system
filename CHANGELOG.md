@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.45 - Education internal notifications and audit view
+
+- Documented a role-scoped overdue-work inbox and bounded manager audit timelines in the separate Education staging CRM.
+- Verified repeat migration, synthetic API and role checks, backup restore, and responsive light/dark browser controls.
+- Kept external delivery and AI integration disconnected; public DNS and HTTPS acceptance remain pending.
+
 ## 0.3.44 - Education B2B operations and bot-source review
 
 - Added organization contacts, a service catalog, and non-financial contract status records to the separate Education staging CRM.
