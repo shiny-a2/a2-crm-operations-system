@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.47 - Education review experience
+
+- Added a Persian, responsive login design for the private Education CRM's client review environment.
+- Unified the login and operator workspace typography using an existing self-hosted Persian typeface.
+- Verified light/dark desktop/mobile layouts, login controls, and existing role-scoped CRM workflows without publishing private assets or credentials.
+
 ## 0.3.46 - Education public staging review
 
 - Documented configurable B2B organization stages, scoped filters and exports, and validated educational profile fields in the private Education CRM.
