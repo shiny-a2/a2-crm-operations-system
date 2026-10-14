@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.46 - Education public staging review
+
+- Documented configurable B2B organization stages, scoped filters and exports, and validated educational profile fields in the private Education CRM.
+- Confirmed the isolated WordPress CRM is available for client review over HTTPS after responsive browser, role, synthetic workflow, and recovery checks.
+- Kept customer data, credentials, private source, hosting details, and AI integration outside the public showcase.
+
 ## 0.3.45 - Education internal notifications and audit view
 
 - Documented a role-scoped overdue-work inbox and bounded manager audit timelines in the separate Education staging CRM.
