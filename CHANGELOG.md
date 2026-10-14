@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.44 - Education B2B operations and bot-source review
+
+- Added organization contacts, a service catalog, and non-financial contract status records to the separate Education staging CRM.
+- Verified scoped API access, migration repeatability, a disposable backup restore, and responsive B2B forms using synthetic records.
+- Completed a read-only review of the existing bot's reusable patterns and documented the tenant and budget boundaries for a future shared AI service. Public HTTPS and AI integration remain pending.
+
 ## 0.3.43 - Education pipeline policy and AI boundary design
 
 - Added configurable student stage labels and allowed transitions to the separate Education staging CRM, with manager-only policy edits and protection for stages already in use.
