@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.41 - Education CRM revision safety
+
+- Made record updates reject stale versions at the database write boundary, protecting student and B2B organization edits from concurrent overwrites.
+- Rechecked the isolated staging workflow with synthetic records; public DNS and HTTPS acceptance remain pending.
+
 ## 0.3.40 - Education staging target correction
 
 - Corrected the earlier staging status after verifying the intended server through read-only access and checking baseline capacity and existing service health.
