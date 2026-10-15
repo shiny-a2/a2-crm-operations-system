@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.49 - Education interface clarity
+
+- Grouped the private Education CRM review views around daily work, customers, sales and management, with clearer Persian guidance in each view.
+- Placed overdue and open follow-up actions ahead of supporting overview metrics, using existing role-scoped counts.
+- Checked admin and operator navigation in light/dark desktop/mobile layouts; client usability acceptance remains pending.
+
 ## 0.3.48 - Education client review readiness
 
 - Improved human review of customer relationships and made manually entered demo records reachable in the CRM workspace.
