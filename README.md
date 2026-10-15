@@ -18,6 +18,8 @@ The review interface now groups destinations by task, gives each view a short Pe
 
 The current client-review build records expected and observed behavior separately for each issue. A reviewer can verify a fix or return it for more work; closure requires verification. Synthetic role, workflow, browser and recovery checks passed, while client acceptance remains pending.
 
+The latest private staging release adds separate operator, sales manager and executive review dashboards, permission-scoped search across customer and sales records, activity filters, and a saved light/dark choice. Synthetic role isolation, direct record navigation, responsive views and backup recovery were checked. Financial figures remain separated by currency, and internally recorded receipts are clearly distinguished from bank confirmation. Client acceptance and production approval are still pending.
+
 ## Reviewer Shortcut
 
 This repo demonstrates a WordPress-based CRM and customer operations system through public-safe architecture notes and sanitized samples. It relates to operator inboxes, assignment state, provider callbacks, reporting snapshots, and auditability inside commerce operations. It proves state boundaries, provider abstraction, live-query avoidance, and fail-visible operations. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.

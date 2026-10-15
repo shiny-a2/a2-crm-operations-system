@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.51 - Education role workspace and search
+
+- Added distinct operator, sales manager, and executive review experiences to the private Education CRM, with financial values separated by currency and internally recorded receipts labeled accurately.
+- Added permission-scoped search across customer, organization, sales, and activity records, plus clearer profile activity filters and a saved light/dark preference.
+- Verified synthetic role isolation, direct search navigation, responsive browser behavior, WordPress integrity, and staging backup recovery. Client acceptance and production approval remain pending.
+
 ## 0.3.50 - Education review verification
 
 - Added separate expected and observed behavior to the private Education CRM's issue reports.
