@@ -20,6 +20,8 @@ Educational consulting needs both an individual student history and the organiza
 
 ## Verification and limits
 
+The client-review preparation update adds an internal, role-scoped feedback form with private screenshots, clearer evidence for human customer matching, and a list for manually entered demo leads. Management reporting now names lead-to-contract conversion separately from opportunity win rate. Synthetic finance, role, browser, repeat-migration and encrypted restore checks passed, and local staging monitoring checks service and backup freshness. These changes help reviewers collect specific findings without publishing business records. The client walkthrough and production decision are still pending.
+
 The latest private update added configurable organization stages, scoped B2B filters and report exports, and validated educational profile fields with audit history. The WordPress CRM is now available through a public HTTPS staging URL for client review. Browser acceptance covered administrator login/logout, organization and student creation, draft contracts, follow-ups, reports, and role boundaries in responsive light/dark layouts. Why it matters: reviewers can test the real CRM workflow while production acceptance remains a separate decision.
 
 The review login now has a dedicated Persian A2 design, and the login, WordPress administration, and operator workspace share one locally served Persian typeface. Desktop and mobile light/dark checks covered the login and existing CRM interactions; the WordPress authentication and role rules remain in place.

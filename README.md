@@ -10,9 +10,9 @@ This repository documents architecture and representative samples only. It does 
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 
-## Education adaptation in progress
+## Education client review preparation
 
-A separate, private WordPress prototype adapts the CRM's operator patterns for educational consulting and B2B relationships. An isolated staging installation now runs student records linked to organizations, B2B contacts, a service catalog, non-financial contract records, named assignments, configurable stage transitions, scoped reports, an operator workspace, audited follow-up rescheduling, an internal overdue-work inbox, and manager-only audit timelines. Internal role, backup/restore, and responsive visual checks use synthetic data. Public DNS and HTTPS acceptance, external messaging or AI delivery, contract terms/payments, full operator feature parity, and Node.js migration remain future milestones. See [the education staging update](docs/engineering-notes/education-staging-update.md).
+A separate, private WordPress CRM adapts the operator patterns for educational consulting and B2B relationships. Its isolated HTTPS staging installation now supports a synthetic sales rehearsal across four staff roles, including leads, follow-ups, negotiated contracts, internal receipt review, installments and role-scoped reports. Reviewers can record issues in a private feedback view with controlled screenshot access. Customer matching presents evidence for human decisions; it does not silently merge records. Automated checks cover role boundaries, responsive light/dark views, financial reconciliation and encrypted backup recovery. Client acceptance and production approval remain pending. External messaging, AI integration, license enforcement, real customer imports and a Node.js CRM are outside this release. See [the education staging update](docs/engineering-notes/education-staging-update.md).
 
 ## Reviewer Shortcut
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.48 - Education client review readiness
+
+- Improved human review of customer relationships and made manually entered demo records reachable in the CRM workspace.
+- Added a private, role-scoped feedback workflow and clarified lead conversion separately from opportunity win rate in management reports.
+- Verified synthetic role, financial, browser, migration and encrypted recovery checks, with staging health and backup freshness monitored locally.
+- Client acceptance and production approval remain pending; no customer data, screenshots, credentials or private source are published here.
+
 ## 0.3.47 - Education review experience
 
 - Added a Persian, responsive login design for the private Education CRM's client review environment.
