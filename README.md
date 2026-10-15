@@ -16,6 +16,8 @@ A separate, private WordPress CRM adapts the operator patterns for educational c
 
 The review interface now groups destinations by task, gives each view a short Persian guide, and puts actionable follow-up counts before supporting metrics. Desktop and mobile navigation were checked in both light and dark themes; the client has not yet accepted the experience.
 
+The current client-review build records expected and observed behavior separately for each issue. A reviewer can verify a fix or return it for more work; closure requires verification. Synthetic role, workflow, browser and recovery checks passed, while client acceptance remains pending.
+
 ## Reviewer Shortcut
 
 This repo demonstrates a WordPress-based CRM and customer operations system through public-safe architecture notes and sanitized samples. It relates to operator inboxes, assignment state, provider callbacks, reporting snapshots, and auditability inside commerce operations. It proves state boundaries, provider abstraction, live-query avoidance, and fail-visible operations. Start with `docs/infrastructure`, `docs/engineering-notes`, and `samples/infrastructure`. This is a showcase repository, not a production package.

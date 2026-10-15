@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.50 - Education review verification
+
+- Added separate expected and observed behavior to the private Education CRM's issue reports.
+- Required a reviewer's verification before a manager can close a fixed issue, with scoped visibility and change history retained.
+- Checked the synthetic sales and spreadsheet workflow, four review roles, responsive views and backup recovery. Client acceptance remains pending.
+
 ## 0.3.49 - Education interface clarity
 
 - Grouped the private Education CRM review views around daily work, customers, sales and management, with clearer Persian guidance in each view.
