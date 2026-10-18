@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.52 - Catalog invitation preview
+
+- Documented a private catalog invitation candidate, its keyboard and motion behavior, browser preview coverage, and remaining release checks. See [catalog invitation preview](docs/engineering-notes/catalog-invitation-preview.md).
+
 ## 0.3.51 - Education role workspace and search
 
 - Added distinct operator, sales manager, and executive review experiences to the private Education CRM, with financial values separated by currency and internally recorded receipts labeled accurately.
