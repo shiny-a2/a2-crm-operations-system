@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-27 — Effective-dated commission reporting
+
+- Apply a changed product-group commission rate from its agreed effective date in the store timezone while preserving earlier sales rules. Later refunds reverse the original sale rate.
+- Show separate rate periods in financial and management reports, and rebuild derived summaries without rewriting sales or cash records.
+- Passed synthetic boundary, gateway, split-payment, refund and cache checks, then reconciled read-only production results before and after deployment. An optional independent calendar cross-check ran locally because the server lacks that extension. Business rates, dates, customer records and financial amounts remain private.
+
 ## 0.3.52 - Catalog invitation preview
 
 - Documented a private catalog invitation candidate, its keyboard and motion behavior, browser preview coverage, and remaining release checks. See [catalog invitation preview](docs/engineering-notes/catalog-invitation-preview.md).
