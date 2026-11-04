@@ -14,6 +14,10 @@ An optional catalog invitation candidate is now documented in the [catalog invit
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 
+## Shared Education assistant preview
+
+An optional source candidate now shares text guidance and manager tools with the A2 assistant platform. It reads authorized reports and requires explicit manager confirmation before creating or completing a CRM follow-up. [Candidate evidence and remaining work](docs/engineering-notes/education-shared-agent.md) distinguish these tested changes from the currently published demo; no shared-agent deployment is claimed.
+
 ## Education client review preparation
 
 The Education demo now runs as an independent Node application with manager, consultant, student and reviewer views. Visitors use isolated synthetic records, current consent and actual counselor-request/session workflows; guide replies are explicitly simulated. The former WordPress version is retained as a recoverable archive. See the [interactive demo](https://education.amiraliyaghouti.com/demo), [Node demo evidence](docs/engineering-notes/education-node-demo.md), and the [historical WordPress refresh](docs/engineering-notes/education-workspace-refresh.md). Full academic guidance and complete feature-parity acceptance remain open.
