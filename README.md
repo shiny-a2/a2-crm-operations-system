@@ -16,7 +16,7 @@ Financial reporting now separates compensation from cash held by an account owne
 
 ## Education client review preparation
 
-The private Education CRM now has refreshed operator and admin workspaces in the current A2 visual family, with clearer navigation, consistent icons, readable forms and a shared sun/moon control. Its existing installation moved to a dedicated Education address while preserving CRM accounts, roles and business records. Responsive authenticated checks and database integrity comparisons passed. A separate student-guidance prototype was tested with synthetic responses and remains an integration candidate. See [the workspace refresh](docs/engineering-notes/education-workspace-refresh.md) and [earlier Education work](docs/engineering-notes/education-staging-update.md).
+The Education demo now runs as an independent Node application with manager, consultant, student and reviewer views. Visitors use isolated synthetic records, current consent and actual counselor-request/session workflows; guide replies are explicitly simulated. The former WordPress version is retained as a recoverable archive. See the [interactive demo](https://education.amiraliyaghouti.com/demo), [Node demo evidence](docs/engineering-notes/education-node-demo.md), and the [historical WordPress refresh](docs/engineering-notes/education-workspace-refresh.md). Full academic guidance and complete feature-parity acceptance remain open.
 
 The review interface now groups destinations by task, gives each view a short Persian guide, and puts actionable follow-up counts before supporting metrics. Desktop and mobile navigation were checked in both light and dark themes; the client has not yet accepted the experience.
 
