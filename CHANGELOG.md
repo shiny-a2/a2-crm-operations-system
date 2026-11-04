@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.53 - Education workspace refresh
+
+- Aligned Education operator and admin workspaces with the current A2 visual family, including consistent navigation icons, clearer forms and the shared sun/moon/automatic control.
+- Moved the existing Education installation to its dedicated address while preserving CRM accounts, roles and business records.
+- Verified authenticated responsive presentation, published asset consistency and database transfer integrity. The separate student-guidance candidate remains synthetic and undeployed.
+
 ## 2026-10-27 — Effective-dated commission reporting
 
 - Apply a changed product-group commission rate from its agreed effective date in the store timezone while preserving earlier sales rules. Later refunds reverse the original sale rate.
