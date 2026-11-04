@@ -179,3 +179,5 @@ PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provid
 - GitHub profile: https://github.com/shiny-a2
 
 [Education business sign-in candidate](docs/engineering-notes/education-business-signin-candidate.md) adds locally tested business and branch access over the existing shared identity, with the public demo kept separate. Production account activation and editable business settings remain pending.
+
+[Education business settings candidate](docs/engineering-notes/education-business-settings-candidate.md) adds confirmed business profile editing, scoped history and retry/conflict protection using a shared Core contract. Locally verified; deployment and full-product acceptance remain pending.
