@@ -6,7 +6,11 @@ Public-safe architecture case study for a WordPress-based CRM/customer operation
 
 This repository documents architecture and representative samples only. It does not contain production customer data, provider credentials, messages, phone numbers, or private workflow logic.
 
-## Latest reporting update
+## Latest storefront update
+
+An optional catalog invitation candidate is now documented in the [catalog invitation preview](docs/engineering-notes/catalog-invitation-preview.md). The note covers content access on first arrival, keyboard and motion behavior, browser preview evidence, and remaining release checks. It is not a production release or a measured conversion improvement.
+
+## Reporting update
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 

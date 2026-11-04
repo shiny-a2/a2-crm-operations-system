@@ -1,10 +1,20 @@
 # Changelog
 
-## 0.3.52 - Education workspace refresh
+## 0.3.53 - Education workspace refresh
 
 - Aligned Education operator and admin workspaces with the current A2 visual family, including consistent navigation icons, clearer forms and the shared sun/moon/automatic control.
 - Moved the existing Education installation to its dedicated address while preserving CRM accounts, roles and business records.
 - Verified authenticated responsive presentation, published asset consistency and database transfer integrity. The separate student-guidance candidate remains synthetic and undeployed.
+
+## 2026-10-27 — Effective-dated commission reporting
+
+- Apply a changed product-group commission rate from its agreed effective date in the store timezone while preserving earlier sales rules. Later refunds reverse the original sale rate.
+- Show separate rate periods in financial and management reports, and rebuild derived summaries without rewriting sales or cash records.
+- Passed synthetic boundary, gateway, split-payment, refund and cache checks, then reconciled read-only production results before and after deployment. An optional independent calendar cross-check ran locally because the server lacks that extension. Business rates, dates, customer records and financial amounts remain private.
+
+## 0.3.52 - Catalog invitation preview
+
+- Documented a private catalog invitation candidate, its keyboard and motion behavior, browser preview coverage, and remaining release checks. See [catalog invitation preview](docs/engineering-notes/catalog-invitation-preview.md).
 
 ## 0.3.51 - Education role workspace and search
 
