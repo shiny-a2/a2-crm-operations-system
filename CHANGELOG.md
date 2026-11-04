@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.54 - Independent Education Node demo
+
+- Published an independently packaged Node CRM/student-advisor demo with isolated synthetic workspaces and four capability-bound roles.
+- Connected student consent and review requests to the existing counselor queue and session lifecycle; replies remain explicitly simulated.
+- Archived the former WordPress version recoverably and verified the public demo, responsive light/dark views, tenant denial cases and disposable archive restoration. No real student records were migrated into the demo.
+
 ## 0.3.53 - Education workspace refresh
 
 - Aligned Education operator and admin workspaces with the current A2 visual family, including consistent navigation icons, clearer forms and the shared sun/moon/automatic control.

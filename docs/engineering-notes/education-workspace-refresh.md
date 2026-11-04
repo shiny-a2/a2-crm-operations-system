@@ -1,5 +1,7 @@
 # Education workspace refresh — November 2026
 
+Historical release: the owner subsequently selected the [independent Node demo](education-node-demo.md) for the public Education address and archived this WordPress version. The description below records the earlier WordPress release.
+
 Education CRM 0.31.1 brings its operator and administration panels into the current A2 visual family. A clearer navigation rail, consistent icons, calmer surfaces and more readable forms help users find the right record and action. The shared sun/moon control includes an automatic device preference, keyboard access and reduced-motion support.
 
 The existing WordPress installation now uses its dedicated Education address. Existing CRM accounts, role assignments and business records are preserved; users sign in again at the new address. Old read links redirect, while old-origin form submissions are refused so operations are not replayed across domains.
