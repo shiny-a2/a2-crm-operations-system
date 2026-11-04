@@ -14,6 +14,10 @@ An optional catalog invitation candidate is now documented in the [catalog invit
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 
+## Education readiness review
+
+The Node demonstration is live, while complete product login, business configuration, CRM/advisor acceptance and further A2 visual polish remain open. The implementation roadmap now defines 90 reviewable tasks without claiming new shipped features. See the [readiness review](docs/engineering-notes/education-readiness-review.md).
+
 ## Shared Education assistant preview
 
 An optional source candidate now shares text guidance and manager tools with the A2 assistant platform. It reads authorized reports and requires explicit manager confirmation before creating or completing a CRM follow-up. [Candidate evidence and remaining work](docs/engineering-notes/education-shared-agent.md) distinguish these tested changes from the currently published demo; no shared-agent deployment is claimed.
