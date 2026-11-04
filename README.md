@@ -177,3 +177,5 @@ PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provid
 - Projects: https://amiraliyaghouti.com/projects.html
 - Case studies: https://amiraliyaghouti.com/case-studies.html
 - GitHub profile: https://github.com/shiny-a2
+
+[Education business sign-in candidate](docs/engineering-notes/education-business-signin-candidate.md) adds locally tested business and branch access over the existing shared identity, with the public demo kept separate. Production account activation and editable business settings remain pending.
