@@ -14,6 +14,10 @@ An optional catalog invitation candidate is now documented in the [catalog invit
 
 Financial reporting now separates compensation from cash held by an account owner, assigns each payment to its recorded recipient, and applies selected dates to opening balances, period activity and closing balances. Dated refunds and retry-safe manual expenses are verified with synthetic regression tests. Production figures and business-specific rate settings remain private.
 
+## Education catalogue and entry candidate
+
+A locally tested catalogue refresh adds clearer product/role stories, honest capability states, mobile navigation, FAQ and a working demo/account entry page. Actual school-account authentication remains unfinished and the public site has not been updated by this candidate. See [the candidate and verification scope](docs/engineering-notes/education-catalogue-candidate.md).
+
 ## Education readiness review
 
 The Node demonstration is live, while complete product login, business configuration, CRM/advisor acceptance and further A2 visual polish remain open. The implementation roadmap now defines 90 reviewable tasks without claiming new shipped features. See the [readiness review](docs/engineering-notes/education-readiness-review.md).
