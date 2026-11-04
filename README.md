@@ -181,3 +181,5 @@ PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provid
 [Education business sign-in candidate](docs/engineering-notes/education-business-signin-candidate.md) adds locally tested business and branch access over the existing shared identity, with the public demo kept separate. Production account activation and editable business settings remain pending.
 
 [Education business settings candidate](docs/engineering-notes/education-business-settings-candidate.md) adds confirmed business profile editing, scoped history and retry/conflict protection using a shared Core contract. Locally verified; deployment and full-product acceptance remain pending.
+
+[Education existing-account access candidate](docs/engineering-notes/education-account-access-candidate.md) adds scoped staff-account visibility and confirmed lifecycle controls using shared current-grant policy. Locally verified; real account setup, licensing integration and deployment remain pending.

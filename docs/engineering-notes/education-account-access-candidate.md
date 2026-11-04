@@ -1,0 +1,7 @@
+# Education existing-account access candidate
+
+Education now has a locally verified staff-account panel with current state, scoped session counts and confirmed session termination or disablement. A shared Core policy protects the manager’s own account and accounts whose permissions or branches exceed that manager’s authority. The existing identity remains authoritative; no second staff directory is created.
+
+Disablement stops when CRM or educational work still depends on the account. Account changes, session removal and audit evidence commit together. Tests cover failed audit storage, revoked manager authority, concurrent login and disablement, and an interrupted response: retrying an old successful request leaves a later legitimate login intact. The panel provides readonly, stale, busy and recovery states in Persian.
+
+Validation passed 52 Education database, HTTP and compatibility tests and three new Core policy tests, plus build/type checks and interactive light/dark mobile/desktop browser gates. These are isolated synthetic results and the candidate is not deployed. Real account creation, invitations, recovery and the product’s license/identity binding remain open. The current license observer does not authorize account provisioning; central AI behavior and costs remain in A2 Intelligence. Beauty’s existing runtime is unchanged and future adoption requires its own consumer verification.
