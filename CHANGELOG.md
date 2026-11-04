@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.52 - Education workspace refresh
+
+- Aligned Education operator and admin workspaces with the current A2 visual family, including consistent navigation icons, clearer forms and the shared sun/moon/automatic control.
+- Moved the existing Education installation to its dedicated address while preserving CRM accounts, roles and business records.
+- Verified authenticated responsive presentation, published asset consistency and database transfer integrity. The separate student-guidance candidate remains synthetic and undeployed.
+
 ## 0.3.51 - Education role workspace and search
 
 - Added distinct operator, sales manager, and executive review experiences to the private Education CRM, with financial values separated by currency and internally recorded receipts labeled accurately.
