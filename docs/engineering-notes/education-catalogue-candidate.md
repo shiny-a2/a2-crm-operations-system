@@ -1,5 +1,7 @@
 # Education catalogue and entry candidate
 
+Publication update, 2026-11-05: The catalogue and public entry behavior was subsequently published in the 0.1.5 synthetic demo. [Release evidence](education-demo-0.1.5-release.md). The candidate record below retains its original verification scope.
+
 A locally tested source candidate replaces the short Education introduction with a fuller Persian product catalogue: clearer capabilities and availability, an interactive introduction to manager/consultant/student/reviewer workspaces, a demo guide, FAQ, mobile navigation and the existing A2 contact route.
 
 The new login entry points visitors to the active isolated demonstration and explicitly explains that real-school account sign-in still needs implementation and activation. It does not collect credentials or create accounts. The catalogue identifies simulated guidance and unfinished capabilities rather than presenting them as live AI.

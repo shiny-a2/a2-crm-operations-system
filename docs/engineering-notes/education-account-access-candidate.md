@@ -1,5 +1,7 @@
 # Education existing-account access candidate
 
+Publication update, 2026-11-05: The scoped existing-account controls were subsequently published in the 0.1.5 synthetic demo. [Release evidence](education-demo-0.1.5-release.md). The candidate record below retains its original verification scope.
+
 Education now has a locally verified staff-account panel with current state, scoped session counts and confirmed session termination or disablement. A shared Core policy protects the manager’s own account and accounts whose permissions or branches exceed that manager’s authority. The existing identity remains authoritative; no second staff directory is created.
 
 Disablement stops when CRM or educational work still depends on the account. Account changes, session removal and audit evidence commit together. Tests cover failed audit storage, revoked manager authority, concurrent login and disablement, and an interrupted response: retrying an old successful request leaves a later legitimate login intact. The panel provides readonly, stale, busy and recovery states in Persian.

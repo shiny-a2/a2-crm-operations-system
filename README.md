@@ -185,3 +185,5 @@ PHP, WordPress, WooCommerce, MySQL, REST/admin AJAX, JavaScript, SMS/VoIP provid
 [Education existing-account access candidate](docs/engineering-notes/education-account-access-candidate.md) adds scoped staff-account visibility and confirmed lifecycle controls using shared current-grant policy. Locally verified; real account setup, licensing integration and deployment remain pending.
 
 [Education business setup review candidate](docs/engineering-notes/education-provisioning-preflight-candidate.md) adds a tested offline preflight over shared Core and signed license evidence, without creating or activating accounts. Deployment and first-login execution remain pending.
+
+[Education demo 0.1.5 is published](docs/engineering-notes/education-demo-0.1.5-release.md): the catalogue/public entry and confirmed presentation/staff controls are live in the synthetic demo, with public browser and access-boundary verification. Real business accounts and live AI remain pending.

@@ -1,5 +1,7 @@
 # Education business setup review candidate
 
+Publication update, 2026-11-05: The 0.1.5 demo is published; provisioning review remains an offline local capability and does not create or activate real accounts. [Release evidence](education-demo-0.1.5-release.md). The candidate record below retains its original verification scope.
+
 Education has a new offline review step for proposed business setup, using a reusable A2 Core contract and the existing shared license verifier. It checks signed product/module evidence, the proposed business mapping, initial capacity and collisions with existing identity. The operator receives a private, expiring review plan. The tool creates no accounts, permissions or sessions and does not authorize execution.
 
 Local verification passed 58 Education tests, six new Core contract tests and 19 existing license-monitor tests, plus optimized build, type and syntax checks. Integration uses the actual PHP issuer with ephemeral synthetic data and read-only PostgreSQL. Tests cover wrong scope, missing modules, revoked evidence, ordinary-role denial, repeated identity, protected files, redacted storage failures and preservation of existing state.
