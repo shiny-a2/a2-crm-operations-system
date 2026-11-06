@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-06 — Storefront invitation layout stability
+
+- Stabilized a customer-facing invitation before reveal so its first layout does not produce a large mobile page shift or force an unsolicited focus change.
+- Kept keyboard entry, dismissal and reopening usable, with a larger close target and readable placeholder text in both themes.
+- Compared five throttled mobile runs against the prior asset, then checked the deployed asset and interaction in mobile and desktop light/dark views. Three live mobile product runs stayed below 0.001 CLS. Field Core Web Vitals remain subject to Google's collection window.
+
 ## 0.3.54 - Independent Education Node demo
 
 - Published an independently packaged Node CRM/student-advisor demo with isolated synthetic workspaces and four capability-bound roles.

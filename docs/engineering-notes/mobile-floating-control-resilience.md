@@ -20,3 +20,7 @@ The production lesson is that fixed pixel offsets do not survive real storefront
 - The public UI becomes easier to maintain because new sticky surfaces do not require another round of page-specific magic numbers.
 
 This note describes the architecture concern only. The private implementation, campaign text, styling details, production selectors, and customer data remain outside the public showcase.
+
+## Storefront invitation layout
+
+A separate mobile layout check found that an invitation could briefly paint while its dialog was still settling, causing a large page shift on some loads. The production adjustment keeps the dialog out of paint until its first layout has settled and avoids moving keyboard focus before the visitor acts. The first Tab still enters the dialog, and the visitor can dismiss and reopen it. The close target and placeholder contrast were checked in light and dark mobile and desktop views. Controlled and live browser checks improved the measured shift; field reporting needs a fresh observation period.
