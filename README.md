@@ -8,6 +8,8 @@ This repository documents architecture and representative samples only. It does 
 
 ## Latest storefront update
 
+The live club promotion now waits until a visitor follows an ordinary internal link before opening on the destination page. Its offer control remains available on arrival, and automatic opening is excluded from cart, checkout and account pages. The private release was checked on a public category-to-product flow at mobile and desktop widths in light and dark themes; no lead was submitted. See the [release note](CHANGELOG.md).
+
 An optional catalog invitation candidate is now documented in the [catalog invitation preview](docs/engineering-notes/catalog-invitation-preview.md). The note covers content access on first arrival, keyboard and motion behavior, browser preview evidence, and remaining release checks. It is not a production release or a measured conversion improvement.
 
 ## Reporting update

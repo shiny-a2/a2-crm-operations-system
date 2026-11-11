@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-11 — Delayed storefront promotion
+
+- Moved automatic opening of the existing club promotion from the landing page to the next page reached through an ordinary internal link, while retaining its manual offer control and close behavior.
+- Excluded cart, checkout and account destinations from automatic opening and kept shopping pages free of an extra offer tip.
+- Checked the deployed public category-to-product journey at mobile and desktop widths in light and dark themes. Source syntax and route regressions passed; the form was not submitted and authenticated flows were not exercised.
+
 ## 2026-11-06 — Storefront invitation layout stability
 
 - Stabilized a customer-facing invitation before reveal so its first layout does not produce a large mobile page shift or force an unsolicited focus change.
