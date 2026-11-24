@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-24 — Sales lead assignment
+
+New sales leads rotate among available operators. Returning contacts keep their assigned operator, and each new assignment produces one notification for its owner. Support conversations can follow a different department roster.
+
+Eight concurrent workers processed the same forty synthetic leads in different orders. Two eligible operators received twenty leads each, and the database recorded one notification event per lead. The check also covered suspended operators and closed records.
+
 ## 2026-11-11 — Delayed storefront promotion
 
 - Moved automatic opening of the existing club promotion from the landing page to the next page reached through an ordinary internal link, while retaining its manual offer control and close behavior.
